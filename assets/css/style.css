@@ -11,15 +11,17 @@ header,
 footer {
     background-color:rgb(36, 139, 36);
     color: #fff;
-    padding: 1em;
+}
+header {
+    padding: 1rem 0;
     position: sticky;
-    top: 0;
+    top:0;
     left: 0;
     z-index: 1;
 }
 header > .container {
     display: flex;
-    padding: 10px auto;
+    padding: 10px 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -78,12 +80,12 @@ button.mobile-buttom div {
     margin: calc(50% / 3) auto;
 }
 
-body {
+/* body {
     overflow-x: hidden;
-}
-/* button.slick-next.slick-arrow {
-    display: none!important;
 } */
+button.slick-next.slick-arrow {
+    display: none!important;
+}
 
 section {
     padding: 56px 0;
